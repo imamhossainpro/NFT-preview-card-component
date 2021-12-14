@@ -1,0 +1,100 @@
+/* 
+================
+Basic Setup 
+=================
+ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serifs;
+    background: #000;
+}
+/* 
+================
+Card Section
+=================
+ */
+
+ .card-section{
+    width: 280px;
+    height: 470px;
+    margin: auto;
+    background-color: #002349;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 50px;
+ }
+ .content img{
+     width: 100%;
+     margin-bottom: 10px;
+ }
+ .content h1{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #fff;
+ }
+ .content p {
+     font-size: 15px;
+     margin-bottom: 10px;
+     color: #fff;
+ }
+ .date-and-money{
+     display: flex;
+     justify-content: space-between;
+ }
+ .date-and-money p{
+     width: 80px;
+     font-size: 15px;
+     margin-top: 5px;
+     margin-left: 5px;
+     color: #fff;
+ }
+ .money , 
+ .date{
+     display: flex;
+ }
+ .money p{
+     color: #14C2C8;
+ }
+ 
+ .money img{
+     width: 20%;
+ }
+.date img{
+    width: 35%;
+}
+.creation{
+    display: flex;
+    margin-top: 10px;
+}
+.creation img {
+    width: 40px;
+}
+.creation p{
+    margin-top: 8px;
+    margin-left: 8px;
+    color: #fff;
+}
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 252, 252);
+}
+
+/* 
+================
+Basic Setup 
+=================
+*/
+
+footer{
+    margin-top: 200px;
+    color: #fff;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
